@@ -14,6 +14,8 @@ def index():
     news = get_news()
     # print(news)
     title = "News_Highlight"
+
+    # print("Our news itemes", news)
     
     return render_template('news.html', news = news, title=title)
 

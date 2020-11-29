@@ -29,6 +29,8 @@ def get_news():
             news_source_list = get_news_response["sources"]
             news_source = process_source(news_source_list)
 
+    # print("Our news itemes", news_source)
+
     return news_source
 
 
