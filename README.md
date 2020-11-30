@@ -23,7 +23,7 @@ BDD
 Behaviour	Input	Output
 Open your terminal	Type this command in the terminal ./manage.py and press enter	The server runs the application in the client
 Heroku-link to News_Highlight
-The following is the heroku link to the project "News_Highlight": / This site lacks github pages:
+The following is the heroku link to the project "News_Highlight":https://eid-news.herokuapp.com/ / This site lacks github pages:
 
 CODEBEAT
 codebeat badge
