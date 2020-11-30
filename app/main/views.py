@@ -1,10 +1,10 @@
 from flask import render_template,request,redirect,url_for
-from app import app
-from .request import get_news,get_article
+from . import main
+from ..request import get_news,get_article
 
 
 #views
-@app.route('/', methods=['GET'])
+@main.route('/', methods=['GET'])
 def index():
 
     '''
@@ -15,11 +15,11 @@ def index():
     # print(news)
     title = "News_Highlight"
 
-    # print("Our news itemes", news)
+    print("Our news itemes", news)
     
     return render_template('news.html', news = news, title=title)
 
-@app.route('/source/<id>')
+@main.route('/source/<id>')
 def article(id):
     '''
     view news page function that returns the news details  and its data
