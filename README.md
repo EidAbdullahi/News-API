@@ -14,7 +14,7 @@ News_App is a web application that displays a list of news sources globally. A u
 Project-Setup Instructions.
 1.Open your github account and search for github username: EidAbdullahi
 
-2.In Eid's repositories; git clone the News_App repository into your local repository using the following link:https://github.com/EidAbdullahi/News-API
+2.In Eid's repositories; git clone the News_App repository into your local repository using the following link:https://github.com/EidAbdullahi/News-API/
 
 3.Open your terminal and run the command ./manage.py to open the website.
 
