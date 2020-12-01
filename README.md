@@ -1,5 +1,5 @@
 Project Name.
-News_Highlight
+News_App
 
 Author's Details.
 Name: Eid Abdullahi.
